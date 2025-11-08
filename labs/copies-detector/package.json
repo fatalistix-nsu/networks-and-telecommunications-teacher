@@ -1,0 +1,33 @@
+{
+  "name": "copies-detector",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@pinia/colada": "^0.17.6",
+    "@tailwindcss/vite": "^4.1.13",
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-log": "~2",
+    "@tauri-apps/plugin-opener": "^2",
+    "axios": "^1.12.2",
+    "pinia": "^3.0.3",
+    "primeicons": "^7.0.0",
+    "sass-embedded": "^1.93.2",
+    "tailwindcss": "^4.1.13",
+    "vite-plugin-vue-devtools": "^8.0.2",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3",
+    "vue-tsc": "^2.1.10",
+    "@tauri-apps/cli": "^2"
+  }
+}

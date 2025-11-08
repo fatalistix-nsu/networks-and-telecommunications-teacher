@@ -1,0 +1,6 @@
+github.com/fatalistix/slogattr v0.0.1 h1:V9Wcm4VdSVGQ6yv+iLhqAwKaSxR4fzuwX0HtsVx0Vqo=
+github.com/fatalistix/slogattr v0.0.1/go.mod h1:xRzz/he0zX9Zcxb++a8defustN8oyPSj3Qz9oPgD4KE=
+github.com/golang-cz/devslog v0.0.15 h1:ejoBLTCwJHWGbAmDf2fyTJJQO3AkzcPjw8SC9LaOQMI=
+github.com/golang-cz/devslog v0.0.15/go.mod h1:bSe5bm0A7Nyfqtijf1OMNgVJHlWEuVSXnkuASiE1vV8=
+github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
+github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
