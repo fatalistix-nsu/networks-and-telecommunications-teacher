@@ -3,12 +3,13 @@ package multicast
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/fatalistix/slogattr"
 	"log/slog"
 	"net"
 	"strconv"
 	"sync"
 	"time"
+
+	"github.com/fatalistix/slogattr"
 )
 
 type Sender struct {

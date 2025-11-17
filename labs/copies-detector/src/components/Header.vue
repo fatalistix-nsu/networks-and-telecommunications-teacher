@@ -26,32 +26,34 @@ const detectorText = [
 </script>
 
 <template>
-  <div class="flex flex-col mt-5">
-    <div class="header-copies-grid">
-      <div class="header-copies-grid-element">
-        <h1
-          class="font-mono whitespace-pre p-0 m-0"
-          v-for="line in copiesText"
-        >
-          {{ line }}
-        </h1>
+  <div class="shadow-lg border-2 border-gray-100 rounded-b-xl">
+    <div class="flex justify-center mt-5 gap-x-10">
+      <div class="header-copies-grid">
+        <div class="header-copies-grid-element">
+          <div
+            class="font-mono whitespace-pre p-0 m-0 text-xs/4"
+            v-for="line in copiesText"
+          >
+            {{ line }}
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="header-detector-grid">
-      <div class="header-detector-grid-element">
-        <h1
-          class="font-mono whitespace-pre p-0 m-0"
-          v-for="line in detectorText"
-        >
-          {{ line }}
-        </h1>
+      <div class="header-detector-grid">
+        <div class="header-detector-grid-element">
+          <div
+            class="font-mono whitespace-pre p-0 m-0 text-xs/4"
+            v-for="line in detectorText"
+          >
+            {{ line }}
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-@reference "../index.css";
+/* @reference "../index.css";
 
 .header-copies-grid {
   @apply grid grid-cols-1;
@@ -107,5 +109,5 @@ const detectorText = [
   @variant 2xl {
     @apply col-start-10;
   }
-}
+} */
 </style>
