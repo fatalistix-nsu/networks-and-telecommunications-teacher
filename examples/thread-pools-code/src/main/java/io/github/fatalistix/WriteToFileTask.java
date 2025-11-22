@@ -1,6 +1,6 @@
 package io.github.fatalistix;
 
-public record IoTask() implements Runnable {
+public record WriteToFileTask() implements Runnable {
 
     @Override
     public void run() {

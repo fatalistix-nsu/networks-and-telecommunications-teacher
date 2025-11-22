@@ -1,4 +1,4 @@
 package io.github.fatalistix;
 
-public class Coroutine {
+public record Coroutine() {
 }

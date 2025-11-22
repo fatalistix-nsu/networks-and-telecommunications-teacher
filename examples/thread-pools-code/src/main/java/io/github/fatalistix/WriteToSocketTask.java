@@ -1,8 +1,8 @@
 package io.github.fatalistix;
 
-public record AlgoTask() implements Runnable {
-
+public record WriteToSocketTask() implements Runnable {
     @Override
     public void run() {
+
     }
 }
